@@ -1,0 +1,28 @@
+git init
+git add filename
+git status
+git commit -m "complete chapter1"
+git log // to display what commityou made
+git diff filename// will display all the chnges made
+git checkout filename // roll back to previous stage which is not commited.
+
+
+git remote add origin https_xxxrepositoty path
+//here origin is the name of the remote, can give anything we want 
+git push -u origin master
+// push all those file and evrything to github.  push local repository(git in system) to remote repository(github)
+
+touch .gitignore //create the hidden file which not visible , can see by using " ls -a"
+
+git rm --cached -r . // remove all from the staging area
+
+git clone  httpsxxxxx_path_name
+
+
+**************************************************************************************************
+Branching and merging
+
+git branch branchname
+git branch //check currenlty in which folder
+ git checkout branchname//switch to branchname path
+ 
